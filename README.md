@@ -89,3 +89,16 @@ After fine-tuning the model, the validation accuracy improved to **67.02%**.
 The model was evaluated using training and validation accuracy and loss.
 
 The fine-tuning stage improved the validation performance compared with the initial model.
+
+## Prediction Demo
+
+The trained MobileNetV2 model can classify an input image into one of the 15 behaviour classes.
+
+### Example Prediction
+
+- **Predicted Behaviour:** Hugging
+- **Confidence:** 83.01%
+- **Actual Behavior:** Hugging
+
+![Behavior Prediction Result](prediction_result.png)
+
