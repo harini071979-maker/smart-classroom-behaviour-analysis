@@ -58,3 +58,22 @@ The project uses **MobileNetV2**, a lightweight convolutional neural network pre
 ### Training Approach
 
 **Input Image → Preprocessing → MobileNetV2 → Global Average Pooling → Dense → Dropout → SoftMax → Predicted Behavior**
+## 📈 Model Performance
+
+The initial MobileNetV2 model achieved a validation accuracy of **62.58%**.
+
+After fine-tuning the model, the validation accuracy improved to **67.02%**.
+
+### Performance Comparison
+
+| Model | Validation Accuracy |
+|---|---:|
+| Initial MobileNetV2 | 62.58% |
+| Fine-Tuned MobileNetV2 | **67.02%** |
+| Improvement | **+4.44 percentage points** |
+
+### Training Results
+
+The model was evaluated using training and validation accuracy and loss.
+
+The fine-tuning stage improved the validation performance compared with the initial model.
