@@ -64,6 +64,18 @@ The initial MobileNetV2 model achieved a validation accuracy of **62.58%**.
 
 After fine-tuning the model, the validation accuracy improved to **67.02%**.
 
+### Original MobileNetV2 Training
+
+![Original Model Accuracy](original_accuracy.png)
+
+![Original Model Loss](original_loss.png)
+
+### MobileNetV2 Fine-Tuning
+
+![Fine-Tuning Accuracy](finetuning_accuracy.png)
+
+![Fine-Tuning Loss](finetuning_loss.png)
+
 ### Performance Comparison
 
 | Model | Validation Accuracy |
